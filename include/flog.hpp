@@ -1,5 +1,5 @@
-#ifndef OPCUA_CLIENT_LOG_H
-#define OPCUA_CLIENT_LOG_H
+#ifndef FLOG_H
+#define FLOG_H
 
 #include <boost/log/attributes/named_scope.hpp>
 #include <boost/log/attributes/timer.hpp>
@@ -148,4 +148,4 @@ extern inline void init() {
 }
 }  // namespace logger
 
-#endif  // OPCUA_CLIENT_LOG_H
+#endif  // FLOG_H
